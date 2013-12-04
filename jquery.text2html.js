@@ -4,7 +4,7 @@
  * @requires jQuery v1.5 or later
  * Copyright (c) 2013 Koo Lee
  * Examples and documentation at: https://kuleeblog.wordpress.com
- * Project repository: https://github.com/malsup/form
+ * Project repository: https://github.com/kool22/text2html
  * Dual licensed under the MIT and GPL licenses.
  */
 (function ($) {
