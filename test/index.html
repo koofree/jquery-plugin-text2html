@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Jquery Text2Html Test Html</title>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://raw.github.com/kool22/text2html/master/jquery.text2html.js"></script>
+</head>
+<body>
+<div>
+    <h1>Jquery Text2Html Test Html</h1>
+
+    <div id="original">
+        Original :
+        Hello. My name is Koo.
+        I am a developer to develop javascript plugins.
+        And I link javascript.
+        My Website is "http://kuleeblog.wordpress.com".
+    </div>
+    <br/>
+
+    <div id="target">
+        Target :
+        Hello. My name is Koo.
+        I am a developer to develop javascript plugins.
+        And I link javascript.
+        My Website is "http://kuleeblog.wordpress.com".
+    </div>
+</div>
+<script>
+    (function ($) {
+        $('#target').text2html();
+    }(jQuery));
+</script>
+</body>
+</html>
